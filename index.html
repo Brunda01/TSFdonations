@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Sparks Foundation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+<!-- CSS code section -->
+    <style>
+
+      body {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        background: url('./bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 1600px;
+        font-size:30pt;
+        font-family: 'Balsamiq Sans', cursive;
+      }
+
+      .left {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        text-align: left;
+        color: #C71585;
+        font-family: sans-serif;
+        font-size: 18pt;
+      }
+
+      .left img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .left title{
+        top: 5px;
+        left: 30px;
+      }
+
+      .right {
+        color: black;
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+      }
+
+      .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 40px 30px;
+      }
+
+      .navbar li a:hover, .navbar li a.active {
+        color: teal;
+        text-decoration: underline;
+      }
+
+      .mid {
+        position: absolute;
+        top: 160px;
+        color: #663399;
+        font-size: 35pt;
+        font-family: sans-serif;
+        text-align: center;
+        left: 50px;
+        margin: 100px 50px;
+      }
+
+      .h6 {
+        position: fixed;
+        color:seagreen;
+        top: 405px;
+        text-align: center;
+        left: 250px;
+      }
+
+      .text {
+        color:tomato;
+      }
+
+
+     .btn{
+        text-align: center;
+        cursor: pointer;
+        background-color: goldenrod;
+        color: black;
+        font-size: 25pt;
+        border: 3px solid lightgray;
+        border-radius: 23px;
+        margin: 10px 250px;
+        padding: 5px 20px;
+        font-family: 'Balsamiq Sans', cursive;
+
+      }
+
+    </style>
+
+    <!-- CSS code ends here -->
+
+  </head>
+  <body>
+
+    <header class="header">
+
+      <!-- Left box for foundation name -->
+      <div class="left">
+        <img src="./logo.png" alt="">
+        <div class="title">
+          <strong>The Sparks Foundation</strong>
+
+        </div>
+      </div>
+
+     <!-- Mid for Donation button -->
+      <main>
+         <div class="mid">
+           <strong><em>Remember that the happiest people<br>are not those getting more,<br>but those <span class="text">giving</span> more!!</em></strong>
+           <h6 class="h6">A little help is what they need</h6>
+
+           <br>
+           <br>
+           <br>
+
+
+           <form action="donate.html">
+               <button class="btn">DONATE NOW</button>
+           </form>
+
+         </div>
+   </main>
+
+      <!-- Right for home, donate, contact and about-->
+      <div class="right">
+
+        <ul class="navbar">
+
+        <li><a href="#" class="active">Home</a></li>
+        <li><a class="links" href="./donate.html">Donate</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About</a></li>
+
+        </ul>
+
+      </div>
+
+</header>
+
+  </body>
+</html>
